@@ -219,6 +219,14 @@ func main() {
 					Usage: `pre-approve all changes and run non-interactively`,
 				},
 				cli.BoolFlag{
+					Name:  "omit-extensions",
+					Usage: "Omit file extensions in destination path when publishing sops file to configured destinations",
+				},
+				cli.BoolFlag{
+					Name:  "recursive",
+					Usage: "If the source path is a directory, publish all its content recursively",
+				},
+				cli.BoolFlag{
 					Name:  "verbose",
 					Usage: "Enable verbose logging output",
 				},
