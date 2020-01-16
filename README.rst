@@ -1,3 +1,10 @@
+FORK NOTICE
+===========
+
+This fork is **ONLY** in existance to provide the ability to set the KMS endpoint to an aws-compatible endpoint.
+If you don't need this feature, please use upstream `mozilla/sops`.  Issue https://github.com/mozilla/sops/issues/605 explains 
+why this feature isn't in upstream and https://github.com/mozilla/sops/pull/608 is the list of changes I made to enable this.
+
 SOPS: Secrets OPerationS
 ========================
 
